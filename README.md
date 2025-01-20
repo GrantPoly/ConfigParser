@@ -14,3 +14,8 @@ public class ConfigParserTest {
     }
 }
 ```
+
+config.ini format:
+
+sales_history = mnt:/s3/sales/
+customers = mnt:/s3/customers/
