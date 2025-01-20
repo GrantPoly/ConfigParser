@@ -9,7 +9,7 @@ public class ConfigParserTest {
         ConfigParser myParser = new ConfigParser("config.ini");
         System.out.println(myParser.getFilePath());
         myParser.setConfigMap();
-        String sales = myParser.getValue("customers");
+        String sales = myParser.getValue("sales_history");
         System.out.println(sales);
     }
 }
