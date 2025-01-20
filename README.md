@@ -2,7 +2,7 @@
 A Java configuration file parser
 
 Example Code:
-
+```
 public class ConfigParserTest {
 
     public static void main(String[] args) {
@@ -13,3 +13,4 @@ public class ConfigParserTest {
         System.out.println(sales);
     }
 }
+```
